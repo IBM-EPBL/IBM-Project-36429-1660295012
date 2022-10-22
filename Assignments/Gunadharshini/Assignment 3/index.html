@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+       <meta charset="utf-8">
+	
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+	            <title>Images</title>
+	
+       <link rel="stylesheet" type="text/css" href="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+
+</head>
+
+<body>
+	
+<img src="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/image1.jpg" >
+	
+<img src="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/image2.jpg" >
+	
+<img src="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/image3.jpg" >
+	
+<img src="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/image4.jpg" >
+	
+<img src="https://gunadharshini.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/image5.jpg">
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "b4b63957-c57a-424f-8edf-ada96722a809", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "61dd0e56-c035-456e-bc33-7d1852c6a2df", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+
+</html>
