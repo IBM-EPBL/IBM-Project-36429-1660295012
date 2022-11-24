@@ -4,6 +4,6 @@ Demo video: https://drive.google.com/file/d/1VfrNVVg_oGV7DPxhPG61KN3cVlAo6AYA/vi
 # Team ID: PNT2022TMID29793
 # BY:
 Jese Owens A
-\nGunadharshini G
-\nKalpanachawla R
-\nKeerthika R
+Gunadharshini G
+Kalpanachawla R
+Keerthika R
